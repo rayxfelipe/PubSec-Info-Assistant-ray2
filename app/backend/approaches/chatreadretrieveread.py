@@ -51,6 +51,7 @@ class ChatReadRetrieveReadApproach(Approach):
     -If the source document has an answer, please respond with citation.You must include a citation to each document referenced only once when you find answer in source documents.      
     -If you cannot find answer in below sources, respond with I am not sure.Do not provide personal opinions or assumptions and do not include citations.
     -Identify the language of the user's question and translate the final response to that language.if the final answer is " I am not sure" then also translate it to the language of the user's question and then display translated response only. nothing else.
+    -If asked about avoiding a process, respond with encouragement to NOT avoid the process.
 
     {follow_up_questions_prompt}
     {injected_prompt}
